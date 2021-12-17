@@ -46,7 +46,7 @@ efk_namespace: kube-logging
 efk_es_svc_name: "elasticsearch"
 efk_es_replicas: 1
 efk_es_image_repo: "docker.elastic.co/elasticsearch/elasticsearch"
-efk_es_image_tag: "7.2.0"
+efk_es_image_tag: "7.16.1"
 efk_busybox_image_repo: "busybox"
 efk_busybox_image_tag: "1.32.0"
 efk_es_volume_size: "50Gi"
@@ -54,7 +54,7 @@ efk_es_volume_size: "50Gi"
 efk_kibana_service_type: "ClusterIP"
 efk_kibana_replicas: 1
 efk_kibana_image_repo: "docker.elastic.co/kibana/kibana"
-efk_kibana_image_tag: "7.2.0"
+efk_kibana_image_tag: "7.16.1"
 efk_gatekeeper_image_repo: "quay.io/keycloak/keycloak-gatekeeper"
 efk_gatekeeper_image_tag: "10.0.0"
 efk_hyperauth_url: hyperauth.tmaxcloud.org
